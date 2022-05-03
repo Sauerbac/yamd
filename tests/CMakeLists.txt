@@ -9,6 +9,7 @@ set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 
 set(myproject_tests_SRCS
         ${CMAKE_CURRENT_SOURCE_DIR}/test_hello_world.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/test_verlet.cpp
         )
 
 # Tests
